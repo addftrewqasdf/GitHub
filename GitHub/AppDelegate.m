@@ -21,6 +21,9 @@
     [str1 description];
     [super dealloc];
     //
+    NSString * str2 = [NSString stringWithFormat:@"1"];
+    [str2 description];
+    
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
