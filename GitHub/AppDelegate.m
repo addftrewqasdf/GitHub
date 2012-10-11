@@ -17,6 +17,8 @@
     [_window release];
     NSString * str = [NSString stringWithFormat:@"1"];
     [str description];
+    NSString * str1 = [NSString stringWithFormat:@"1"];
+    [str1 description];
     [super dealloc];
 }
 
