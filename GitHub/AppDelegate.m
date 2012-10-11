@@ -15,6 +15,8 @@
 - (void)dealloc
 {
     [_window release];
+    NSString * str = [NSString stringWithFormat:@"1"];
+    [str description];
     [super dealloc];
 }
 
