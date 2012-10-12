@@ -23,6 +23,8 @@
     //
     NSString * str2 = [NSString stringWithFormat:@"1"];
     [str2 description];
+    NSString * str3 = [NSString stringWithFormat:@"1"];
+    [str3 description];
     
 }
 
